@@ -4,24 +4,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PravTracker</title>
+<link rel="icon" href="app-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
   <header class="site">
-    <a class="brand" href="index.html">PravTracker</a>
+    <a class="brand" href="index.html"><img src="app-icon.png" alt=""> PravTracker</a>
     <nav>
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Service</a>
     </nav>
   </header>
 
-  <h1>PravTracker</h1>
-  <p class="tagline">A simple, private food, gym, and weight tracker for iPhone.</p>
+  <div class="hero">
+    <img class="icon" src="app-icon.png" alt="PravTracker app icon">
+    <h1>PravTracker</h1>
+    <p class="tagline">A simple, private food, gym, and weight tracker for iPhone.</p>
 
-  <!-- TODO: replace "#" with your real App Store link once the app is live, e.g.
-       https://apps.apple.com/app/idXXXXXXXXXX -->
-  <a class="btn disabled" href="#" id="app-store-link">Download on the App Store (coming soon)</a>
+    <!-- TODO: replace "#" with your real App Store link once the app is live, e.g.
+         https://apps.apple.com/app/idXXXXXXXXXX -->
+    <a class="btn disabled" href="#" id="app-store-link">Download on the App Store — coming soon</a>
+  </div>
 
   <div class="card">
     <h2>What it does</h2>
@@ -40,7 +44,7 @@
 
   <footer>
     <p>&copy; <span id="year"></span> PravTracker. All rights reserved.</p>
-    <p><a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a> &middot; <a href="mailto:prabhjot19968@gmail.com">Contact</a></p>
+    <p><a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a> &middot; <a href="mailto:pravtracker@gmail.com">Contact</a></p>
   </footer>
 </div>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
