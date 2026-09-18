@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PravTracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="index.html">PravTracker</a>
+    <nav>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+  </header>
+
+  <h1>PravTracker</h1>
+  <p class="tagline">A simple, private food, gym, and weight tracker for iPhone.</p>
+
+  <!-- TODO: replace "#" with your real App Store link once the app is live, e.g.
+       https://apps.apple.com/app/idXXXXXXXXXX -->
+  <a class="btn disabled" href="#" id="app-store-link">Download on the App Store (coming soon)</a>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <ul>
+      <li>Log meals and track calories</li>
+      <li>Track gym workouts and sets</li>
+      <li>Log body weight and progress over time</li>
+      <li>Sign in with Apple, or use it as a guest — your choice</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Your data stays on your device</h2>
+    <p>PravTracker doesn't have a server. Everything you log is stored locally on your iPhone. Nothing is uploaded, sold, or shared with third parties. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> PravTracker. All rights reserved.</p>
+    <p><a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a> &middot; <a href="mailto:prabhjot19968@gmail.com">Contact</a></p>
+  </footer>
+</div>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
